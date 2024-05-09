@@ -1,4 +1,4 @@
-FROM python:3.13.0a4-slim
+FROM python:3.13.0b1-slim
 MAINTAINER Arnau Siches <arnau@ustwo.com>
 
 ENV DEBIAN_FRONTEND noninteractive

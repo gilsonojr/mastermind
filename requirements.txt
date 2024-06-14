@@ -1,11 +1,23 @@
-Flask<0.11,>=0.10.1
+Flask<2.2.5,>=0.10.1
 PyInstaller==3.1
 flake8
 coloredlogs==5.0
 hypothesis==3.4
 jsonschema==2.5
-mitmproxy==0.17
-pyYAML==3.11
+mitmproxy==8.0.0
+pyYAML==4.2b1
 pytest==2.9.2
 pytoml==0.1
 tinydb==3.1
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=42.0.2 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+lxml>=4.9.1 # not directly required, pinned by Snyk to avoid a vulnerability
+passlib>=1.7.3 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pyopenssl>=17.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
